@@ -1,0 +1,131 @@
+/* GERAIS  */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #97B696;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .botao {
+    background-color:#97B696;
+    color: #37541C;
+    border-radius: 20px;
+    text-transform: uppercase;
+    /* padding-top:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom:10px; */
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  /* FIM GERAIS */
+  
+  /* BANNER */
+  .banner {
+    background: url(../src/20190210_203048.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner__conteudo {
+    color:#37541C;
+    text-align: center fixed;
+    text-shadow: #97B696 0.05em 0.07em 0.1em ;
+  }
+  
+  .banner__titulo {
+    font-size: 42px;
+  }
+  
+  .banner__link:hover {
+    background-color:#37541C;
+    color: white;
+    transition: .3s;
+    text-shadow: none;
+  }
+  
+  /* FIM BANNER */
+  
+  
+  /* COMECO SOBRE / HABILIDADES */
+  
+  .section {
+    margin: 5% 10%;
+    line-height: 30px;
+  }
+  
+  .section__titulo {
+    color: #37541C;
+    font-size:36px;
+  }
+  
+  .sobre {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .sobre__texto {
+    width: 50%;
+    margin-right:30px;
+  }
+  
+  .sobre__texto-principal {
+    font-size: 18px;
+  }
+  
+  .sobre__cv {
+    border: 1px solid #37541C;
+  }
+  
+  .sobre__cv:hover {
+    opacity: 0.3;
+    transition: .3s;
+  }
+  
+  /* FIM SOBRE / HABILIDADES */
+  
+  /* FOOTER */
+  
+  .footer {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .redes-sociais {
+    display: flex;
+  }
+  
+  .redes-sociais__link {
+    margin: 20px;
+    background-color: #37541C;
+    color: white;
+    text-align:center;
+    padding: 10px 20px;
+    width: 170px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  }
+  
+  .redes-sociais__link:hover {
+    transform: scale(1.1);
+    transition: .3s;
+  }
+  
+  .redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+  }
