@@ -15,7 +15,7 @@
   
   .botao {
     background-color:#97B696;
-    color: #37541C;
+    color: #fa7f72;
     border-radius: 20px;
     text-transform: uppercase;
     /* padding-top:10px;
@@ -40,7 +40,7 @@
   }
   
   .banner__conteudo {
-    color:#37541C;
+    color:#fa7f72;
     text-align: center fixed;
     text-shadow: #97B696 0.05em 0.07em 0.1em ;
   }
@@ -50,8 +50,8 @@
   }
   
   .banner__link:hover {
-    background-color:#37541C;
-    color: white;
+    background-color:#fa7f72;
+    color: black;
     transition: .3s;
     text-shadow: none;
   }
@@ -67,7 +67,7 @@
   }
   
   .section__titulo {
-    color: #37541C;
+    color: #fa7f72;
     font-size:36px;
   }
   
@@ -86,7 +86,7 @@
   }
   
   .sobre__cv {
-    border: 1px solid #37541C;
+    border: 1px solid #fa7f72;
   }
   
   .sobre__cv:hover {
@@ -111,8 +111,8 @@
   
   .redes-sociais__link {
     margin: 20px;
-    background-color: #37541C;
-    color: white;
+    background-color: #fa7f72;
+    color: black;
     text-align:center;
     padding: 10px 20px;
     width: 170px;
